@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background:#5A206C ;
+
+}
+footer{
+    display: flex;
+    margin: 0;
+}
+.social-container{
+    display: flex;
+}
+.icon-facebook{
+background: url(./assets/facebook.png);
+background-size: 32px;
+}
+.icon-twitter{
+    background: url(./assets/twitter.png)
+}
+.icon-accessibility{
+    display: block;
+    width: 32px;
+    height: 32px;
+}
