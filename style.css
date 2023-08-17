@@ -54,3 +54,18 @@
 .ultmensajes{
     position: relative;
 }
+.cuerpo2{
+    position: relative;
+    width: 98%;
+    height: 45%;
+    background-color: rgb(230, 226, 228);
+    top: 10px;
+    left: 1%;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.icon33{
+    position: relative;
+    left: 10px;
+    top: 40%;
+}
