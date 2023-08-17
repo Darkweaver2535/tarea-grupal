@@ -1,3 +1,127 @@
+/* alvin cayo */
+/* sergio---> encabezado*/
+* {
+    margin: 0;
+    padding: 0
+}
+body{
+    background-color: rgb(247, 237, 244)
+    
+}
+.cuadro1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #292222;
+}
+
+.cuadro2{
+    position: relative;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(192, 50, 145);
+    border-radius: 2%;
+}
+.cuadro3{
+    position: absolute;
+    top: 9px;
+    left: 150px;
+    width: 150px;
+    height: 25px;
+    background-color: aliceblue;
+    border-radius: 9%;
+}
+.logo{
+        position: relative;
+        top: 25px;
+        display: flex;
+        align-items: center;
+}
+.titulo {
+    top: 30px;
+    left: 350px;
+    position: absolute;
+    color: white;
+}
+.letra1-link{
+    left: -100px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+}
+.letra2-link{
+    left: 700px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+}
+.letra3-link{
+    left: 710px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+}
+.foto1{
+    width: 30px; 
+    height: 30px;
+    position:relative;
+    left:7px;
+    top: 5px;
+    
+}
+.foto2{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
+.comparte{
+    left: 330px;
+    color: #ffffff;
+    font-size: 20px;
+    position:absolute;
+    top:11px;
+
+}
+.foto3{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 390px;
+    top: 3px;
+
+}
+.foto4{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 390px;
+    top: 3px;
+
+}
+.foto5{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 390px;
+    top: 3px;
+
+}
+.foto6{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 390px;
+    top: 3px;
+}
 /* cayo---> cuerpo*/
 .rec
 {
