@@ -1,4 +1,11 @@
-
+/* cayo---> cuerpo*/
+.rec
+{
+    width: 300px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
 /* elian---> cuerpo*/
 .cuerpo{
     font-family: Arial, sans-serif;
@@ -7,7 +14,7 @@
     height: 400px;
     background-color: rgb(118, 59, 111);
     position: relative;
-    top: 100px;
+    top: 10px;
     left: 1%;
     color: white;
     border-radius: 6px;
@@ -69,4 +76,23 @@
     position: relative;
     left: 10px;
     top: 40%;
+}
+
+/* Estilos del footer */
+.footer-content{
+    position: fixed;
+    width: 100%;
+    background-color: #E1D6FF; /* Color morado claro */
+    color: #333;
+    text-align: center;
+    bottom: 0;
+    border-radius: 30px; /* Bordes redondeados */
+}
+/* Estilo de los enlaces en el footer */
+.footer-content a {
+    color: #333;
+    text-decoration: none;
+}
+.footer-content a:hover {
+    text-decoration: underline;
 }

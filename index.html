@@ -8,6 +8,100 @@
 </head>
 <body>
     <header></header>
+    <div class="navbar">
+        <div class="inner">
+            <span class="corners-top">
+                <span>
+                </span>
+            </span>
+                <ul class="linklist navlinks">
+                    <li>
+                        <a class="mainmenu" href="/">
+                            <img id="i_icon_mini_index" src="https://2img.net/i/fa/prosilver_magenta/icon_home.gif" border="0" hspace="2" alt="Índice" title="Índice">Índice
+                        </a> &nbsp;
+                    </li>
+                    <li>
+                        <a class="mainmenu" href="/calendar">
+                            <img id="i_icon_mini_calendar" src="https://2img.net/i/fa/prosilver_magenta/icon_calendar.gif" border="0" hspace="2" alt="Calendario" title="Calendario">Calendario</a> &nbsp;
+                    </li>
+                    <li>
+                        <a class="mainmenu" href="/images">
+                            <img id="i_icon_mini_imagelist" src="https://2img.net/i/fa/prosilver_magenta/icon_gallery.gif" border="0" hspace="2" alt="Últimas imágenes" title="Últimas imágenes">Últimas imágenes
+                        </a> &nbsp;
+                    </li>
+                    <li>
+                        <a class="mainmenu" href="/publi">
+                            <img id="i_icon_mini_publication" src="https://2img.net/i/empty.gif" border="0" hspace="2" alt="Publicaciones" title="Publicaciones">Publicaciones
+                        </a> &nbsp;
+                    </li>
+                    <li>
+                        <a class="mainmenu" href="/faq">
+                            <img id="i_icon_mini_faq" src="https://2img.net/i/fa/prosilver_magenta/icon_faq.gif" border="0" hspace="2" alt="FAQ" title="FAQ">FAQ
+                        </a> &nbsp;
+                    </li>
+                    <li>
+                        <a class="mainmenu" href="/search" onclick="showhide(document.getElementById('search_menu')); return false;">
+                            <img id="i_icon_mini_search" src="https://2img.net/i/fa/prosilver_magenta/icon_search.gif" border="0" hspace="2" alt="Buscar" title="Buscar">Buscar
+                        </a> &nbsp;
+                        <div class="overview row3" id="search_menu" style="display:none;position:absolute;width:350px;z-index:10000">
+                            <form action="/search" method="get">
+                                <input type="hidden" name="mode" value="searchbox">
+                                <p class="title-overview row2">Buscar
+
+                                </p>
+                                <p class="center-overview">
+                                    <input type="text" class="inputbox medium" name="search_keywords">
+                                    <input type="submit" class="button1" value="Go">
+                                    <br>Resultados por:
+                                    <input id="rposts" type="radio" name="show_results" value="posts">
+                                    <label for="rposts">Mensajes</label>
+                                    <input id="rtopics" type="radio" name="show_results" value="topics" checked="checked">
+                                    <label for="rtopics">Temas</label>
+                                </p><hr class="dashed">
+                                <p class="center-overview">
+                                    <a href="/search" rel="nofollow" title="Búsqueda avanzada">
+                                        <img src="https://2img.net/i/empty.gif" width="12" height="13" alt="Búsqueda avanzada" loading="lazy">
+                                        Búsqueda avanzada
+                                    </a>
+                                </p>
+                            </form>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="mainmenu" href="/memberlist">
+                            <img id="i_icon_mini_members" src="https://2img.net/i/fa/prosilver_magenta/icon_members.gif" border="0" hspace="2" alt="Miembros" title="Miembros">Miembros
+                        </a> &nbsp;
+                    </li>
+                    <li>
+                        <a class="mainmenu" href="/groups"><img id="i_icon_mini_groups" src="https://2img.net/i/fa/prosilver_magenta/icon_groups.gif" border="0" hspace="2" alt="Grupos de Usuarios" title="Grupos de Usuarios">Grupos de Usuarios
+                        </a> &nbsp;
+                    </li>
+                    <li>
+                        <a class="mainmenu" href="/profile?mode=editprofile">
+                            <img id="i_icon_mini_profile" src="https://2img.net/i/fa/prosilver_magenta/icon_ucp.gif" border="0" hspace="2" alt="Perfil" title="Perfil">Perfil
+                        </a> &nbsp;
+                    </li>
+                    <li>
+                        <a class="mainmenu" href="/privmsg?folder=inbox" rel="nofollow">
+                            <img id="i_icon_mini_message" src="https://2img.net/i/fa/prosilver_magenta/icon_message.png" border="0" hspace="2" alt="Mensajería" title="Mensajería">Mensajería
+                        </a> &nbsp;</li><li><a class="mainmenu" href="/login?logout=1&amp;tid=5dc33f11077dbbf2f256f3732e3efad6&amp;key=013c1b" rel="nofollow" id="logout">
+                            <img id="i_icon_mini_logout" src="https://2img.net/i/fa/prosilver_magenta/icon_logout.gif" border="0" hspace="2" alt="Desconectarse [ Alvin__Cayo ]" title="Desconectarse [ Alvin__Cayo ]">Desconectarse [ Alvin__Cayo ]
+                        </a> &nbsp;</li>
+                    </ul>
+                    <div id="search-box">
+                        <form method="get" action="/search?search_where=11" id="search">
+                            <p class="nomargin">
+                                <input type="text" name="search_keywords" id="keywords" maxlength="128" class="inputbox search" value="Buscar..." onclick="if (this.value == 'Buscar...') this.value = '';" onblur="if (this.value == '') this.value = 'Buscar...';"><input class="button2" type="submit" value="Buscar">
+                            </p>
+                        </form>
+                    </div>
+                    <span class="corners-bottom">
+                        <span>
+
+                        </span>
+                    </span>
+                </div>
+            </div>
     <main>
         <div class="cuerpo">
             <div class="encabezado">
@@ -121,7 +215,21 @@
                 </div>
             </div>
         </div>
+        <div class="footer-content">
+            <p>
+                &copy; 2023 Proyecto Grupal. Taller de Programacion 5to Semestre.
+                <a href="https://www.google.com" target="_blank"> ||Índice||</a>
+                <a href="https://www.google.com" target="_blank"> ||Crear Foro||</a>
+                <a href="https://www.google.com" target="_blank"> ||Foro Gratis de Asistencia||</a>
+                <a href="https://www.google.com" target="_blank"> ||Contactar||</a>
+                <a href="https://www.google.com" target="_blank"> ||Denunciar Abuso||</a>
+                <a href="https://www.google.com" target="_blank"> ||Formativo.com||</a>
+            </p>
+        </div>
     </main>
-    <footer></footer>
+    
+    <footer>
+        
+    </footer>
 </body>
 </html>
