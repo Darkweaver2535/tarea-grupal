@@ -48,7 +48,21 @@ body{
     color: white;
 }
 .letra1-link{
-    left: 11px;
+    left: -100px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+}
+.letra2-link{
+    left: 700px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+}
+.letra3-link{
+    left: 710px;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -76,4 +90,35 @@ body{
     position:absolute;
     top:11px;
 
+}
+.foto3{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 390px;
+    top: 3px;
+
+}
+.foto4{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 390px;
+    top: 3px;
+
+}
+.foto5{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 390px;
+    top: 3px;
+
+}
+.foto6{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 390px;
+    top: 3px;
 }
