@@ -1,42 +1,4 @@
-/* sergio---> encabezado*/
-* {
-    margin: 0;
-    padding: 0
-}
-body{
-    background-color: rgb(247, 237, 244)
-    
-}
-.cuadro1 {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 40px;
-    background-color: #312b2b;
-}
-.cuadro2{
-    font-family: Arial, sans-serif;
-    position: relative;
-    top: 5px;
-    left: 0;
-    width: 100%;
-    height: 200px;
-    background-color: rgb(118, 59, 111);
-    border-radius: 2%;
-}
-.logo{
-        position: relative;
-        top: 25px;
-        display: flex;
-        align-items: center;
-}
-.titulo {
-    top: 30px;
-    left: 350px;
-    position: absolute;
-    color: white;
-}
+
 /* elian---> cuerpo*/
 .cuerpo{
     font-family: Arial, sans-serif;
@@ -70,5 +32,25 @@ body{
     color: rgb(118, 59, 111);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     left: 50px;
-    top: -20px;
+    top: -30px;
+}
+.encabezado {
+    display: flex;
+    height: 5%;
+}
+.titleraw{
+    width: 60%;
+    left: 10px;
+    position: relative;
+}
+.temas{
+    width: 10%;
+    position: relative;
+}
+.mensajes{
+    width: 10%;
+    position: relative;
+}
+.ultmensajes{
+    position: relative;
 }
