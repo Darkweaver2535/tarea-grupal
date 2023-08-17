@@ -18,12 +18,13 @@ body{
 }
 
 .cuadro2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
     top: 5px;
     left: 0;
     width: 100%;
     height: 200px;
-    background-color: rgb(192, 50, 145);
+    background-color: rgb(118, 56, 111);
     border-radius: 2%;
 }
 .cuadro3{
@@ -122,13 +123,38 @@ body{
     left: 390px;
     top: 3px;
 }
-/* cayo---> cuerpo*/
+/* cayo---> nav*/
 .rec
 {
     width: 300px;
     position: absolute;
     top: 0%;
     left: 0%;
+}
+.lLinks_nLinks{
+    display: flex;
+    height: 5%;
+    position: relative;
+    width: 98%;
+    height: 22%;
+    background-color: rgb(222, 184, 203);
+    top: 10px;
+    left: 1%;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70%;
+}
+.buscar1{
+    background-color: rgb(222, 184, 203);
+    position: relative;
+    width: 98%;
+    height: 5%;
+    top: 10px;
+    left: 1%;
+}
+.buscar2{
+    text-align: right;
 }
 /* elian---> cuerpo*/
 .cuerpo{
@@ -138,7 +164,7 @@ body{
     height: 400px;
     background-color: rgb(118, 59, 111);
     position: relative;
-    top: 10px;
+    top: 70px;
     left: 1%;
     color: white;
     border-radius: 6px;
@@ -149,7 +175,7 @@ body{
     width: 98%;
     height: 22%;
     background-color: rgb(230, 226, 228);
-    top: 10px;
+    top: 1px;
     left: 1%;
     border-radius: 4px;
     border: 1px solid rgb(255, 255, 255);
