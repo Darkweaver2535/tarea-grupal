@@ -1,7 +1,248 @@
+/* alvin cayo */
+/* sergio---> encabezado*/
+* {
+    margin: 0;
+    padding: 0
+}
+body{
+    background-color: rgb(247, 237, 244)
+    
+}
+.cuadro1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #292222;
+}
+
+.cuadro2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(118, 56, 111);
+    border-radius: 2%;
+}
+.cuadro3{
+    position: absolute;
+    top: 9px;
+    left: 150px;
+    width: 150px;
+    height: 25px;
+    background-color: aliceblue;
+    border-radius: 9%;
+}
+.logo{
+        position: relative;
+        top: 25px;
+        display: flex;
+        align-items: center;
+}
+.titulo {
+    top: 30px;
+    left: 350px;
+    position: absolute;
+    color: white;
+}
+.letra1-link{
+    left: -100px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+}
+.letra2-link{
+    left: 700px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+}
+.letra3-link{
+    left: 710px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position:relative;
+}
+.foto1{
+    width: 30px; 
+    height: 30px;
+    position:relative;
+    left:7px;
+    top: 5px;
+    
+}
+.foto2{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
+.comparte{
+    left: 330px;
+    color: #ffffff;
+    font-size: 20px;
+    position:absolute;
+    top:11px;
+
+}
+.foto3{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 390px;
+    top: 3px;
+
+}
+.foto4{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 390px;
+    top: 3px;
+
+}
+.foto5{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 390px;
+    top: 3px;
+
+}
+.foto6{
+    width: 24px; 
+    height: 20px;
+    position: relative;
+    left: 390px;
+    top: 3px;
+}
+/* cayo---> nav*/
 .rec
 {
     width: 300px;
     position: absolute;
     top: 0%;
     left: 0%;
+}
+.lLinks_nLinks{
+    display: flex;
+    height: 5%;
+    position: relative;
+    width: 98%;
+    height: 22%;
+    background-color: rgb(222, 184, 203);
+    top: 10px;
+    left: 1%;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70%;
+}
+.buscar1{
+    background-color: rgb(222, 184, 203);
+    position: relative;
+    width: 98%;
+    height: 5%;
+    top: 10px;
+    left: 1%;
+}
+.buscar2{
+    text-align: right;
+}
+/* elian---> cuerpo*/
+.cuerpo{
+    font-family: Arial, sans-serif;
+    font-size: 50%;
+    width: 98%;
+    height: 400px;
+    background-color: rgb(118, 59, 111);
+    position: relative;
+    top: 70px;
+    left: 1%;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid rgb(255, 255, 255);
+} 
+.cuerpo1{
+    position: relative;
+    width: 98%;
+    height: 22%;
+    background-color: rgb(230, 226, 228);
+    top: 1px;
+    left: 1%;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.icon32{
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+.title32{
+    position: relative;
+    color: rgb(118, 59, 111);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 50px;
+    top: -30px;
+}
+.encabezado {
+    display: flex;
+    height: 5%;
+}
+.titleraw{
+    width: 60%;
+    left: 10px;
+    position: relative;
+}
+.temas{
+    width: 10%;
+    position: relative;
+}
+.mensajes{
+    width: 10%;
+    position: relative;
+}
+.ultmensajes{
+    position: relative;
+}
+.cuerpo2{
+    position: relative;
+    width: 98%;
+    height: 45%;
+    background-color: rgb(230, 226, 228);
+    top: 10px;
+    left: 1%;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.icon33{
+    position: relative;
+    left: 10px;
+    top: 40%;
+}
+
+/* Estilos del footer */
+.footer-content{
+    position: fixed;
+    width: 100%;
+    background-color: #E1D6FF; /* Color morado claro */
+    color: #333;
+    text-align: center;
+    bottom: 0;
+    border-radius: 30px; /* Bordes redondeados */
+}
+/* Estilo de los enlaces en el footer */
+.footer-content a {
+    color: #333;
+    text-decoration: none;
+}
+.footer-content a:hover {
+    text-decoration: underline;
 }
